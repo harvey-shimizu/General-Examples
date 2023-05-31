@@ -1231,6 +1231,9 @@
 <script data-config="">
  var filtersConfig = {
   base_path: 'tablefilter/',
+  auto_filter: {
+		            delay: 2000 //milliseconds
+              },
               filters_row_index: 1,
               state: true,
               alternate_rows: true,
@@ -1241,7 +1244,8 @@
             };
             var tf = new TableFilter('demo', filtersConfig);
             tf.init();
-</script>
+          </script>
+
 
           <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
           <!-- <script src="https://code.jquery.com/jquery.min.js"></script> -->
